@@ -1,7 +1,6 @@
 body {
     background-color: rgb(253, 251, 251);
 }
-
 header {
     position: fixed;
     top: 0;
@@ -14,6 +13,11 @@ img {
 }
 
 article {
+    border: 1px solid black;
+    width: 45%;
+}
+
+aside {
     border: 1px solid black;
     width: 45%;
 }
