@@ -1,15 +1,22 @@
 body {
+    border: 1px;
+    margin-left: 2px;
     background-color: rgb(253, 251, 251);
 }
+
 header {
     position: fixed;
     top: 0;
     background-color: green;
     width: 100%;
+    color:rgb(253, 251, 251);
+    margin-bottom: 500;
 }
 
 img {
-    margin-top: 100px;
+    margin-top: 200px;
+    padding: 10px;
+    background-color: green;
 }
 
 article {
@@ -21,3 +28,27 @@ aside {
     border: 1px solid black;
     width: 45%;
 }
+
+#titulo {
+    text-align: center;
+}
+nav ul {
+    position: fixed;
+    margin-top: 71px;
+    background-color: green;
+    width: 100%;
+    list-style: none;
+}
+
+footer {
+    background-color: green;
+    height: 35px;
+    color:rgb(253, 251, 251)
+}
+
+p {
+    font-family: monospace;
+    font-size: 12px;
+    line-height: 25px;
+}
+
